@@ -1,0 +1,24 @@
+.sendmail-container {
+    background-color: #fafafa;
+    padding: 40px;
+}
+
+.sendmail-infodata button {
+    margin-left: 20px;
+}
+
+.alert-email-send {
+    color: green;
+    font-size: 12px;
+}
+
+.error-email-send {
+    color: red;
+    font-size: 12px;
+}
+
+.sendmail-container span {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+}

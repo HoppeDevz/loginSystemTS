@@ -1,0 +1,50 @@
+<div class="containerlogin">
+    <h1>TypeScripto <br> By:HoppeDevz </h1>
+    <form class="formcontainer" action="/users/tryLogin" method="POST">
+
+        <input placeholder="username" class="input-area" />
+        <br>
+        <input placeholder="password" type="password" class="input-area" />
+        <br>
+        <button class="submit-button">Login</button>
+        <a class="register-button" href="http://localhost:3333/Register">Registrar-se</a>
+    </form>
+</div>
+
+<style>
+    .register-button {
+        outline: none;
+        text-decoration: none;
+        color: red;
+        font-weight: bold;
+    }
+
+    .containerlogin {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        margin-top: 15%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .input-area {
+        border-radius: 10px;
+        padding: 10px;
+        outline: none;
+        margin: 10px;
+    }
+
+    .formcontainer {
+        padding: 10px;
+        background-color: black;
+        margin: 90px;
+    }
+
+    .submit-button {
+        border: none;
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+    }
+</style>

@@ -1,0 +1,28 @@
+.resetpassword-container {
+    background-color: #fafafa;
+    padding: 40px;
+}
+
+.title-resetpassword {
+    margin-bottom: 10px;
+}
+
+.resetpassword-infodata {
+    display: grid;
+}
+
+.alert-container {
+    display: inline;
+}
+
+.resetpass-error {
+    color: red;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.resetpass-alert {
+    color: green;
+    font-size: 12px;
+    margin-left: 20px;
+}
