@@ -37,6 +37,6 @@
     "mailer": "^0.6.7",
     "mongoose": "^5.9.16",
     "mysql": "^2.18.1",
-    "nodemailer": "^6.4.8"
+    "nodemailer": "^6.4.16"
   }
 }
